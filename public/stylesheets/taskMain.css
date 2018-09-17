@@ -1,0 +1,26 @@
+
+.taskTable{
+    text-align: center;
+    border: 1px double black;
+    width: 100%;
+}
+
+.filledTr{
+    color: red; font-weight: bold; font-size: 16px;
+}
+
+#container {
+    width: 100%; /* Общая ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+}
+#leftcol {
+    float: left;
+    width: 30%;
+}
+#rightcol {
+    float: right;
+    width: 70%;
+}
+.clear {
+    clear: left;
+}
